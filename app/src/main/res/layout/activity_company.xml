@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/content_image_height"
+        android:paddingBottom="@dimen/screen_vertical_margin"
+        android:paddingLeft="@dimen/screen_horizontal_margin"
+        android:paddingRight="@dimen/screen_horizontal_margin"
+        android:paddingTop="@dimen/screen_vertical_margin">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/image_default"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/company"
+            app:riv_corner_radius="@dimen/rounded_imageview_radius" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/image_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            app:riv_corner_radius="@dimen/rounded_imageview_radius" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/screen_vertical_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/company_text_margin"
+                android:gravity="left"
+                android:paddingBottom="@dimen/content_padding_vertical"
+                android:paddingLeft="@dimen/content_padding_horizontal"
+                android:paddingRight="@dimen/content_padding_horizontal"
+                android:paddingTop="@dimen/content_padding_vertical"
+                android:text="New Text"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/text_medium" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow
+                    android:id="@+id/layout_cairo_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/apptheme_list_selector_holo_light"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/content_padding_vertical"
+                    android:paddingLeft="@dimen/content_padding_horizontal"
+                    android:paddingRight="@dimen/content_padding_horizontal"
+                    android:paddingTop="@dimen/content_padding_vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/company_info_icon_dimen"
+                        android:src="@drawable/address_icon" />
+
+                    <TextView
+                        android:id="@+id/text_address"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/company_text_margin"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="New Text"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/text_medium" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/layout_cairo_phone1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/apptheme_list_selector_holo_light"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/content_padding_vertical"
+                    android:paddingLeft="@dimen/content_padding_horizontal"
+                    android:paddingRight="@dimen/content_padding_horizontal"
+                    android:paddingTop="@dimen/content_padding_vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/company_info_icon_dimen"
+                        android:src="@drawable/telephone_icon" />
+
+                    <TextView
+                        android:id="@+id/text_phone1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/company_text_margin"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="New Text"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/text_medium" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/layout_cairo_phone2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/apptheme_list_selector_holo_light"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/content_padding_vertical"
+                    android:paddingLeft="@dimen/content_padding_horizontal"
+                    android:paddingRight="@dimen/content_padding_horizontal"
+                    android:paddingTop="@dimen/content_padding_vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/company_info_icon_dimen"
+                        android:src="@drawable/telephone_icon" />
+
+                    <TextView
+                        android:id="@+id/text_phone2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/company_text_margin"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="New Text"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/text_medium" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/layout_mobile1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/apptheme_list_selector_holo_light"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/content_padding_vertical"
+                    android:paddingLeft="@dimen/content_padding_horizontal"
+                    android:paddingRight="@dimen/content_padding_horizontal"
+                    android:paddingTop="@dimen/content_padding_vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/company_info_icon_dimen"
+                        android:src="@drawable/mobile_icon" />
+
+                    <TextView
+                        android:id="@+id/text_mobile1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/company_text_margin"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="New Text"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/text_medium" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/layout_mobile2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/apptheme_list_selector_holo_light"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/content_padding_vertical"
+                    android:paddingLeft="@dimen/content_padding_horizontal"
+                    android:paddingRight="@dimen/content_padding_horizontal"
+                    android:paddingTop="@dimen/content_padding_vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/company_info_icon_dimen"
+                        android:src="@drawable/mobile_icon" />
+
+                    <TextView
+                        android:id="@+id/text_mobile2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/company_text_margin"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="New Text"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/text_medium" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/layout_cairo_fax"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/content_padding_vertical"
+                    android:paddingLeft="@dimen/content_padding_horizontal"
+                    android:paddingRight="@dimen/content_padding_horizontal"
+                    android:paddingTop="@dimen/content_padding_vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/company_info_icon_dimen"
+                        android:src="@drawable/fax_icon" />
+
+                    <TextView
+                        android:id="@+id/text_fax"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/company_text_margin"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="New Text"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/text_medium" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/layout_cairo_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/apptheme_list_selector_holo_light"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/content_padding_vertical"
+                    android:paddingLeft="@dimen/content_padding_horizontal"
+                    android:paddingRight="@dimen/content_padding_horizontal"
+                    android:paddingTop="@dimen/content_padding_vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/company_info_icon_dimen"
+                        android:src="@drawable/mail_icon" />
+
+                    <TextView
+                        android:id="@+id/text_email"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/company_text_margin"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="New Text"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/text_medium" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/layout_webSite"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/apptheme_list_selector_holo_light"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/content_padding_vertical"
+                    android:paddingLeft="@dimen/content_padding_horizontal"
+                    android:paddingRight="@dimen/content_padding_horizontal"
+                    android:paddingTop="@dimen/content_padding_vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/company_info_icon_dimen"
+                        android:src="@drawable/website_icon" />
+
+                    <TextView
+                        android:id="@+id/text_webSite"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/company_text_margin"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="New Text"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/text_medium" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

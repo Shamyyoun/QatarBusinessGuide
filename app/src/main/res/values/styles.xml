@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- full screen theme -->
+    <style name="FullscreenTheme" parent="@style/AppTheme">
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- app theme -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowBackground">@drawable/app_bg</item>
+
+        <item name="android:actionBarStyle">@style/actionbarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:editTextBackground">@drawable/apptheme_edit_text_holo_light</item>
+
+        <item name="android:textColorHighlight">#99b81818</item>
+        <item name="android:textSelectHandleLeft">@drawable/apptheme_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/apptheme_text_select_handle_right
+        </item>
+        <item name="android:textSelectHandle">@drawable/apptheme_text_select_handle_middle</item>
+
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerAppTheme</item>
+
+        <item name="android:listChoiceBackgroundIndicator">
+            @drawable/apptheme_list_selector_holo_light
+        </item>
+
+        <item name="android:activatedBackgroundIndicator">
+            @drawable/apptheme_activated_background_holo_light
+        </item>
+
+        <item name="android:fastScrollThumbDrawable">@drawable/apptheme_fastscroll_thumb_holo</item>
+    </style>
+
+    <!-- actionbar style -->
+    <style name="actionbarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_bg</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:displayOptions"></item>
+    </style>
+
+    <!-- spinner style -->
+    <style name="SpinnerAppTheme" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/apptheme_spinner_background_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/apptheme_list_selector_holo_light</item>
+    </style>
+
+    <!-- text shadow style -->
+    <style name="TextViewShadow">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+
+</resources>

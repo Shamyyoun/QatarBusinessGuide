@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/screen_vertical_margin"
+    android:paddingLeft="@dimen/screen_horizontal_margin"
+    android:paddingRight="@dimen/screen_horizontal_margin"
+    android:paddingTop="@dimen/screen_vertical_margin">
+
+    <FrameLayout
+        android:id="@+id/layout_thumbnailRoot"
+        android:layout_width="@dimen/rounded_logo_dimen"
+        android:layout_height="@dimen/rounded_logo_dimen">
+
+        <views.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/company" />
+
+        <views.RoundedImageView
+            android:id="@+id/image_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/company" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ex_list_text_margin"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text="name"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/text_medium" />
+</LinearLayout>

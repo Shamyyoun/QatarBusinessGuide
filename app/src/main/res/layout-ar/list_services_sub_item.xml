@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/trans_yellow"
+    android:paddingTop="@dimen/content_padding_vertical"
+    android:paddingBottom="@dimen/content_padding_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_cairo_address"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/content_padding_horizontal"
+        android:paddingRight="@dimen/content_padding_horizontal"
+        android:paddingTop="@dimen/content_padding_vertical"
+        android:paddingBottom="@dimen/content_padding_vertical">
+
+        <TextView
+            android:layout_marginRight="@dimen/content_padding_vertical"
+            android:gravity="right"
+            android:id="@+id/text_address"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="address"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/text_medium" />
+
+        <ImageView
+            android:src="@drawable/address_icon"
+            android:layout_width="@dimen/ex_list_subitem_icon_dimen"
+            android:layout_height="@dimen/ex_list_subitem_icon_dimen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_phone"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/apptheme_list_selector_holo_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/content_padding_horizontal"
+        android:paddingRight="@dimen/content_padding_horizontal"
+        android:paddingTop="@dimen/content_padding_vertical"
+        android:paddingBottom="@dimen/content_padding_vertical">
+
+        <TextView
+            android:layout_marginRight="@dimen/content_padding_vertical"
+            android:gravity="right"
+            android:id="@+id/text_phone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="web site"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/text_medium" />
+
+        <ImageView
+            android:src="@drawable/telephone_icon"
+            android:layout_width="@dimen/ex_list_subitem_icon_dimen"
+            android:layout_height="@dimen/ex_list_subitem_icon_dimen" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/screen_horizontal_margin"
+    android:paddingRight="@dimen/screen_horizontal_margin"
+    android:paddingTop="@dimen/screen_vertical_margin"
+    android:paddingBottom="@dimen/screen_vertical_margin">
+
+    <views.RoundedCornersImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ecoomy_trading_ministry_services" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/view_margin">
+
+        <TextView
+            android:id="@+id/text_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text text"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/text_medium" />
+    </ScrollView>
+</LinearLayout>

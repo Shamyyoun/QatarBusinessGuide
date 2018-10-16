@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/trans_yellow"
+    android:paddingTop="@dimen/content_padding_vertical"
+    android:paddingBottom="@dimen/content_padding_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/content_padding_horizontal"
+        android:paddingRight="@dimen/content_padding_horizontal"
+        android:paddingTop="@dimen/content_padding_vertical"
+        android:paddingBottom="@dimen/content_padding_vertical">
+
+        <ImageView
+            android:src="@drawable/date_icon"
+            android:layout_width="@dimen/ex_list_subitem_icon_dimen"
+            android:layout_height="@dimen/ex_list_subitem_icon_dimen" />
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_marginLeft="@dimen/content_padding_vertical"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="web site"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/text_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/content_padding_horizontal"
+        android:paddingRight="@dimen/content_padding_horizontal"
+        android:paddingTop="@dimen/content_padding_vertical"
+        android:paddingBottom="@dimen/content_padding_vertical">
+
+        <ImageView
+            android:src="@drawable/address_icon"
+            android:layout_width="@dimen/ex_list_subitem_icon_dimen"
+            android:layout_height="@dimen/ex_list_subitem_icon_dimen" />
+
+        <TextView
+            android:id="@+id/text_place"
+            android:layout_marginLeft="@dimen/content_padding_vertical"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="web site"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/text_medium" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text_desc"
+        android:layout_marginLeft="@dimen/content_padding_horizontal"
+        android:layout_marginRight="@dimen/content_padding_horizontal"
+        android:layout_marginTop="@dimen/content_padding_vertical"
+        android:layout_marginBottom="@dimen/content_padding_vertical"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="web site"
+        android:textColor="@color/light_gray"
+        android:textSize="@dimen/text_medium" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/container_tab"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/text_investInQatar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_red_item"
+            android:gravity="center"
+            android:text="@string/invest_in_qatar"
+            android:textColor="@color/dark_red"
+            android:textSize="@dimen/title_dimen" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="@dimen/tabs_seperator_height"
+            android:background="@color/light_red" />
+
+        <TextView
+            android:id="@+id/text_nationalProjects"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_red_item"
+            android:gravity="center"
+            android:text="@string/national_projects"
+            android:textColor="@color/dark_red"
+            android:textSize="@dimen/title_dimen" />
+    </LinearLayout>
+
+</LinearLayout>

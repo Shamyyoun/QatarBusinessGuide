@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jpardogo.listbuddies.lib.views.containers.FrameLayoutFeedback xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="@dimen/grid_item_height1"
+    android:layout_width="match_parent"
+    app:selectorColor="@color/trans_black">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/company"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image_default" />
+
+    <ImageView
+        android:visibility="gone"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image_image" />
+
+    <ImageView
+        android:layout_gravity="bottom"
+        android:background="@drawable/gray_trans_grad"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_grad_height"
+        android:id="@+id/imageView4" />
+
+    <TextView
+        android:padding="@dimen/cat_title_padding"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company name"
+        android:id="@+id/text_name"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/grid_title_margin" />
+</com.jpardogo.listbuddies.lib.views.containers.FrameLayoutFeedback>

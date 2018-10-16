@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompaniesActivity">
+
+    <include
+        android:id="@+id/view_progress"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/view_progress"></include>
+
+    <include
+        android:id="@+id/view_error"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/view_error"></include>
+
+    <include
+        android:id="@+id/view_empty"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/view_empty"></include>
+
+    <FrameLayout
+        android:visibility="invisible"
+        android:id="@+id/view_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.jpardogo.listbuddies.lib.views.ListBuddiesLayout
+            android:id="@+id/listBuddiesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:speed="2"
+            app:autoScrollFaster="right"
+            app:scrollFaster="left" />
+
+    </FrameLayout>
+</FrameLayout>

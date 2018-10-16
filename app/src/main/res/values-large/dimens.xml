@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_large">28sp</dimen>
+    <dimen name="text_medium">20sp</dimen>
+    <dimen name="text_small">18sp</dimen>
+    <dimen name="title_dimen">24sp</dimen>
+    <dimen name="splash_logo_size">290dp</dimen>
+    <dimen name="splash_tr_logo_dimen">120dp</dimen>
+    <dimen name="spinner_item_padding">13sp</dimen>
+    <dimen name="ex_list_text_margin">23dp</dimen>
+    <dimen name="list_item_thumbnail_dimen">83dp</dimen>
+    <dimen name="rounded_image_dimen">225dp</dimen>
+    <dimen name="rounded_imageview_radius">45dp</dimen>
+    <dimen name="ex_list_expand_icon_dimen">18dp</dimen>
+    <dimen name="ex_list_subitem_icon_dimen">42dp</dimen>
+    <dimen name="rounded_logo_dimen">105dp</dimen>
+    <dimen name="radial_menu_logo_width">105dp</dimen>
+    <dimen name="radial_menu_radius">345dp</dimen>
+    <dimen name="radial_menu_item_radius">38dp</dimen>
+    <dimen name="radial_menu_path_width">307dp</dimen>
+    <dimen name="tab_text_padding">30dp</dimen>
+    <dimen name="error_image_dimen">120dp</dimen>
+    <dimen name="error_text_margin">23dp</dimen>
+    <dimen name="grid_grad_height">113dp</dimen>
+    <dimen name="grid_title_margin">12dp</dimen>
+    <dimen name="grid_item_height1">300dp</dimen>
+    <dimen name="grid_item_height2">338dp</dimen>
+    <dimen name="company_text_margin">15dp</dimen>
+    <dimen name="company_info_icon_dimen">52dp</dimen>
+    <dimen name="search_bar_horizontal_margin">23dp</dimen>
+    <dimen name="search_bar_vertical_margin">12dp</dimen>
+    <dimen name="search_red_icon_dimen">68dp</dimen>
+    <dimen name="list_footer_padding">7.5dp</dimen>
+    <dimen name="welcome_text_margin">10.5dp</dimen>
+    <dimen name="welcome_text_size">97sp</dimen>
+    <dimen name="services_categories_title_margin">7.5dp</dimen>
+    <dimen name="services_categories_height">180dp</dimen>
+    <dimen name="services_categories_item_width">120dp</dimen>
+    <dimen name="services_categories_item_spacing">7.5dp</dimen>
+    <dimen name="content_image_height">285dp</dimen>
+    <dimen name="quar_circle_icon_dimen">105dp</dimen>
+    <dimen name="arc_logo_dimen">195dp</dimen>
+    <dimen name="horizontal_list_arrow_width">60dp</dimen>
+    <dimen name="cat_title_padding">15dp</dimen>
+    <dimen name="services_categories_item_padding">7dp</dimen>
+    <dimen name="media_center_logo_dimen">225dp</dimen>
+
+</resources>

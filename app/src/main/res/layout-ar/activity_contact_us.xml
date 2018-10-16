@@ -1,0 +1,301 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.smartinnovationtechnology.qbg.ContactUsActivity">
+
+    <ImageView
+        android:layout_marginLeft="@dimen/screen_horizontal_margin"
+        android:layout_marginRight="@dimen/screen_horizontal_margin"
+        android:layout_marginTop="@dimen/screen_vertical_margin"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/arc_logo_dimen"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/umc_arc_logo" />
+
+    <ScrollView
+        android:overScrollMode="never"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/view_margin">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TableRow
+                android:id="@+id/layout_cairo_address"
+                android:background="@drawable/apptheme_list_selector_holo_light"
+                android:paddingLeft="@dimen/content_padding_horizontal"
+                android:paddingRight="@dimen/content_padding_horizontal"
+                android:paddingTop="@dimen/content_padding_vertical"
+                android:paddingBottom="@dimen/content_padding_vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/dark_gray"
+                    android:layout_marginRight="@dimen/company_text_margin"
+                    android:textSize="@dimen/text_medium"
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emc_cairo_address" />
+
+                <ImageView
+                    android:src="@drawable/address_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/company_info_icon_dimen" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/layout_cairo_phone1"
+                android:background="@drawable/apptheme_list_selector_holo_light"
+                android:paddingLeft="@dimen/content_padding_horizontal"
+                android:paddingRight="@dimen/content_padding_horizontal"
+                android:paddingTop="@dimen/content_padding_vertical"
+                android:paddingBottom="@dimen/content_padding_vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/dark_gray"
+                    android:layout_marginRight="@dimen/company_text_margin"
+                    android:textSize="@dimen/text_medium"
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emc_cairo_phone1" />
+
+                <ImageView
+                    android:src="@drawable/telephone_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/company_info_icon_dimen" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/layout_cairo_phone2"
+                android:background="@drawable/apptheme_list_selector_holo_light"
+                android:paddingLeft="@dimen/content_padding_horizontal"
+                android:paddingRight="@dimen/content_padding_horizontal"
+                android:paddingTop="@dimen/content_padding_vertical"
+                android:paddingBottom="@dimen/content_padding_vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/dark_gray"
+                    android:layout_marginRight="@dimen/company_text_margin"
+                    android:textSize="@dimen/text_medium"
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emc_cairo_phone2" />
+
+                <ImageView
+                    android:src="@drawable/telephone_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/company_info_icon_dimen" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/layout_cairo_fax"
+                android:paddingLeft="@dimen/content_padding_horizontal"
+                android:paddingRight="@dimen/content_padding_horizontal"
+                android:paddingTop="@dimen/content_padding_vertical"
+                android:paddingBottom="@dimen/content_padding_vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/dark_gray"
+                    android:layout_marginRight="@dimen/company_text_margin"
+                    android:textSize="@dimen/text_medium"
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emc_cairo_fax" />
+
+                <ImageView
+                    android:src="@drawable/fax_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/company_info_icon_dimen" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/layout_cairo_email"
+                android:background="@drawable/apptheme_list_selector_holo_light"
+                android:paddingLeft="@dimen/content_padding_horizontal"
+                android:paddingRight="@dimen/content_padding_horizontal"
+                android:paddingTop="@dimen/content_padding_vertical"
+                android:paddingBottom="@dimen/content_padding_vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/dark_gray"
+                    android:layout_marginRight="@dimen/company_text_margin"
+                    android:textSize="@dimen/text_medium"
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emc_cairo_mail" />
+
+                <ImageView
+                    android:src="@drawable/mail_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/company_info_icon_dimen" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/layout_alex_address"
+                android:background="@drawable/apptheme_list_selector_holo_light"
+                android:paddingLeft="@dimen/content_padding_horizontal"
+                android:paddingRight="@dimen/content_padding_horizontal"
+                android:paddingTop="@dimen/content_padding_vertical"
+                android:paddingBottom="@dimen/content_padding_vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/dark_gray"
+                    android:layout_marginRight="@dimen/company_text_margin"
+                    android:textSize="@dimen/text_medium"
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emc_alex_address" />
+
+                <ImageView
+                    android:src="@drawable/address_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/company_info_icon_dimen" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/layout_alex_phone"
+                android:background="@drawable/apptheme_list_selector_holo_light"
+                android:paddingLeft="@dimen/content_padding_horizontal"
+                android:paddingRight="@dimen/content_padding_horizontal"
+                android:paddingTop="@dimen/content_padding_vertical"
+                android:paddingBottom="@dimen/content_padding_vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/dark_gray"
+                    android:layout_marginRight="@dimen/company_text_margin"
+                    android:textSize="@dimen/text_medium"
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emc_alex_phone" />
+
+                <ImageView
+                    android:src="@drawable/telephone_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/company_info_icon_dimen" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/layout_alex_fax"
+                android:paddingLeft="@dimen/content_padding_horizontal"
+                android:paddingRight="@dimen/content_padding_horizontal"
+                android:paddingTop="@dimen/content_padding_vertical"
+                android:paddingBottom="@dimen/content_padding_vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/dark_gray"
+                    android:layout_marginRight="@dimen/company_text_margin"
+                    android:textSize="@dimen/text_medium"
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emc_alex_fax" />
+
+                <ImageView
+                    android:src="@drawable/fax_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/company_info_icon_dimen" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/layout_alex_email"
+                android:background="@drawable/apptheme_list_selector_holo_light"
+                android:paddingLeft="@dimen/content_padding_horizontal"
+                android:paddingRight="@dimen/content_padding_horizontal"
+                android:paddingTop="@dimen/content_padding_vertical"
+                android:paddingBottom="@dimen/content_padding_vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/dark_gray"
+                    android:layout_marginRight="@dimen/company_text_margin"
+                    android:textSize="@dimen/text_medium"
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emc_alex_mail" />
+
+                <ImageView
+                    android:src="@drawable/mail_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/company_info_icon_dimen" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/layout_webSite"
+                android:background="@drawable/apptheme_list_selector_holo_light"
+                android:paddingLeft="@dimen/content_padding_horizontal"
+                android:paddingRight="@dimen/content_padding_horizontal"
+                android:paddingTop="@dimen/content_padding_vertical"
+                android:paddingBottom="@dimen/content_padding_vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text_webSite"
+                    android:textColor="@color/blue"
+                    android:layout_marginRight="@dimen/company_text_margin"
+                    android:textSize="@dimen/text_medium"
+                    android:gravity="right"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/website" />
+
+                <ImageView
+                    android:src="@drawable/website_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/company_info_icon_dimen" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

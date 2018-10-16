@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:background="@drawable/actionbar_bg"
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/button_search"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:layout_width="@dimen/actionbar_icon_dimen"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/actionbar_icon_padding"
+            android:paddingRight="@dimen/actionbar_icon_padding"
+            android:src="@drawable/ic_search_white"
+            android:background="@drawable/clickable_item"
+            android:visibility="visible" />
+
+        <TextView
+            android:singleLine="true"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:id="@+id/text_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/conferences"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_dimen" />
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:id="@+id/button_back"
+            android:layout_width="@dimen/actionbar_icon_dimen"
+            android:layout_height="match_parent"
+            android:background="@drawable/clickable_item"
+            android:paddingLeft="@dimen/actionbar_icon_padding"
+            android:paddingRight="@dimen/actionbar_icon_padding"
+            android:src="@drawable/ic_back_white" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:paddingBottom="@dimen/abc_action_bar_default_height"
+        android:layout_below="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/view_progress"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/view_progress"></include>
+
+        <include
+            android:id="@+id/view_error"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/view_error"></include>
+
+        <include
+            android:id="@+id/view_empty"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/view_empty"></include>
+
+
+        <FrameLayout
+            android:visibility="gone"
+            android:id="@+id/view_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <views.SlideExpandableListView
+                android:drawSelectorOnTop="false"
+                android:listSelector="#00000000"
+                android:groupIndicator="@null"
+                android:id="@+id/list_events"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

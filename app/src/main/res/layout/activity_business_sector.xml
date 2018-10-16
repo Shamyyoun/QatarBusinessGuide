@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusinessSectorActivity">
+
+    <include
+        android:id="@+id/view_progress"
+        layout="@layout/view_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></include>
+
+    <include
+        android:id="@+id/view_error"
+        layout="@layout/view_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></include>
+
+    <include
+        android:id="@+id/view_empty"
+        layout="@layout/view_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></include>
+
+    <FrameLayout
+        android:id="@+id/view_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <views.ResizableImageView
+            android:layout_width="@dimen/radial_menu_logo_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/radial_menu_logo" />
+
+        <views.ResizableImageView
+            android:id="@+id/image_radialPath"
+            android:layout_width="@dimen/radial_menu_path_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:scaleX="-1"
+            android:src="@drawable/radial_menu_path" />
+
+        <com.lukedeighton.wheelview.WheelView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/wheelView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:repeatItems="true"
+            app:selectionAngle="17.0"
+            app:wheelItemRadius="@dimen/radial_menu_item_radius"
+            app:wheelPosition="left"
+            app:wheelRadius="@dimen/radial_menu_radius" />
+
+    </FrameLayout>
+</FrameLayout>

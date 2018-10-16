@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <views.ResizableImageView
+        android:layout_width="@dimen/radial_menu_logo_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:src="@drawable/radial_menu_logo" />
+
+    <views.ResizableImageView
+        android:id="@+id/image_radialPath"
+        android:layout_width="@dimen/radial_menu_path_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:scaleX="-1"
+        android:src="@drawable/radial_menu_path" />
+
+    <com.lukedeighton.wheelview.WheelView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/wheelView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:repeatItems="true"
+        app:selectionAngle="77.0"
+        app:wheelItemCount="14"
+        app:wheelItemRadius="@dimen/radial_menu_item_radius"
+        app:wheelPosition="left"
+        app:wheelRadius="@dimen/radial_menu_radius" />
+
+    <ImageButton
+        android:id="@+id/button_contactUs"
+        android:layout_width="@dimen/quar_circle_icon_dimen"
+        android:layout_height="@dimen/quar_circle_icon_dimen"
+        android:layout_gravity="bottom|right"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:scaleX="-1"
+        android:src="@drawable/contact_us_icon" />
+
+</FrameLayout>

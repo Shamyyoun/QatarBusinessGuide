@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qatar Business Guide</string>
+    <string name="maps_api_key">AIzaSyC_5Fr7aboMHfpZYUVIJBMcH6UoxPekGvg</string>
+
+    <string name="powered_by">Powered by</string>
+    <string name="qatar_business_guide">Qatar Business Guide</string>
+    <string name="economy_trading_ministry">Economy and Trading Ministry</string>
+    <string name="media_center">Media Center</string>
+    <string name="introduction">Introduction</string>
+    <string name="vision">Vision</string>
+    <string name="investment_in_qatar">Investment In Qatar</string>
+    <string name="investment_climate">Investment Climate</string>
+    <string name="international_agreements">International Agreements</string>
+    <string name="investment_systems">Investment Systems</string>
+    <string name="national_projects">National Projects</string>
+    <string name="ministries">Ministries</string>
+    <string name="organizations">Organizations</string>
+    <string name="gov_sector">Government Sector</string>
+    <string name="business_sector">Business Sector</string>
+    <string name="services">Services</string>
+    <string name="tap_to_refresh">Tap to refresh</string>
+    <string name="error_loading_data">Error loading data</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="connection_error">Connection error</string>
+    <string name="no_data">No data</string>
+    <string name="no_sectors">No sectors</string>
+    <string name="no_sub_sectors">No sub sectors</string>
+    <string name="no_companies">No companies</string>
+    <string name="no_ministry_data">No data for this ministry</string>
+    <string name="address">Address</string>
+    <string name="search">Search</string>
+    <string name="by_sector">Sector</string>
+    <string name="by_sub_sector">SubSector</string>
+    <string name="by_company">Company</string>
+    <string name="by_place">Place</string>
+    <string name="enter_search_text">Enter search text</string>
+    <string name="no_search_results">No search results</string>
+    <string name="load_more">Load more</string>
+    <string name="good_morning">Good\nMorning</string>
+    <string name="good_afternoon">Good\nAfternoon</string>
+    <string name="good_evening">Good\nEvening</string>
+    <string name="search_hint">Search...</string>
+    <string name="search_in_services_hint">Search in services...</string>
+    <string name="quick_search">Quick Search</string>
+    <string name="service_cat1">Banks</string>
+    <string name="service_cat2">Hotels</string>
+    <string name="service_cat3">Embassies</string>
+    <string name="service_cat4">Medical</string>
+    <string name="service_cat5">Restaurants</string>
+    <string name="service_cat6">Shipping</string>
+    <string name="service_cat7">Maintenance</string>
+    <string name="service_cat8">Real Estates</string>
+    <string name="service_cat9">Computers</string>
+    <string name="service_cat10">Markets</string>
+    <string name="service_cat11">Taxi</string>
+    <string name="language">Language</string>
+    <string name="arabic">العربية</string>
+    <string name="english">English</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="our_projects">Our Projects</string>
+    <string name="conferences">Conferences</string>
+    <string name="website">Website</string>
+    <string name="no_events">No events</string>
+    <string name="invest_in_qatar">Invest In Qatar</string>
+
+    <!-- EMC CONTACT US DATA -->
+    <string name="emc_cairo_address">--</string>
+    <string name="emc_cairo_phone1">+2 02 3830 0510</string>
+    <string name="emc_cairo_phone2">+2 02 3830 0488</string>
+    <string name="emc_cairo_fax">+2 02 3830 0508</string>
+    <string name="emc_cairo_mail">info@egypt-media.com</string>
+    <string name="emc_cairo_website">egypt-media.com</string>
+    <string name="emc_alex_address">--</string>
+    <string name="emc_alex_phone">03 5233704</string>
+    <string name="emc_alex_fax">03-5232386</string>
+    <string name="emc_alex_mail">info.alex@egypt-media.com</string>
+
+    <!-- MC PROJECTS -->
+    <string name="mc_proj1_name">Qatar Business Giude</string>
+    <string name="mc_proj1_website">http://www.qbguide.co</string>
+    <string name="mc_proj2_name">Doha Medical Giude</string>
+    <string name="mc_proj2_website">http://www.tbeebk.com</string>
+    <string name="mc_proj3_name">Eyes Of Qatar Magazine</string>
+    <string name="mc_proj3_website">http://www.eyesofqatar.com</string>
+    <string name="mc_proj4_name">Qatar National Record</string>
+    <string name="mc_proj4_website">http://www.qnationalguide.com</string>
+    <string name="mc_proj5_name">Qatar Labor And Business Giude</string>
+    <string name="mc_proj5_website">http://www.qlguide.com</string>
+
+    <!-- PROJECTS NAMES-->
+    <string name="proj1">مشروع معبرشرق- خليج الدوحة</string>
+    <string name="proj2">جسر يربط  قطر بالبحرين</string>
+    <string name="proj3">الطبيعة الثنائية البرمائية 1000</string>
+    <string name="proj4">البرجين التوأم في الخليج الغربي</string>
+    <string name="proj5">مشروع ارجوان</string>
+    <string name="proj6">مشروع مترو الدوحة</string>
+    <string name="proj7">استاد الخور</string>
+
+    <!-- MINISTRIES NAMES -->
+    <string name="ministry1">Presidency of the Council of Ministers </string>
+    <string name="ministry2">Ministry of Defense and Military Production </string>
+    <string name="ministry3">Ministry of State for Military Production </string>
+    <string name="ministry4">Ministry of Petroleum </string>
+    <string name="ministry5">The Ministry of Electricity and Renewable Energy</string>
+    <string name="ministry6">Ministry of Foreign Affairs </string>
+    <string name="ministry7">The Ministry of Environment </string>
+    <string name="ministry8">Ministry of Communications and Information Technology </string>
+    <string name="ministry9">Ministry of Education </string>
+    <string name="ministry10">The Ministry of Manpower and Immigration </string>
+    <string name="ministry11">Ministry of Justice </string>
+    <string name="ministry12">Ministry of Local Development </string>
+    <string name="ministry13">Ministry of Housing, Utilities and Urban Communities </string>
+    <string name="ministry14">The Ministry of Awqaf </string>
+    <string name="ministry15">Ministry of the Interior </string>
+
+    <!-- MINISTRIES WEBSITES -->
+    <string name="ministry1_website">www.mec.gov.qa</string>
+    <string name="ministry2_website">mei.gov.qa</string>
+    <string name="ministry4_website">www.mofa.gov.qa</string>
+    <string name="ministry5_website">www.mof.gov.qa</string>
+    <string name="ministry6_website">www.moj.gov.qa</string>
+    <string name="ministry7_website">www.moi.gov.qa</string>
+    <string name="ministry8_website">www.baladiya.gov.qa</string>
+    <string name="ministry9_website">www.molsa.gov.qa</string>
+    <string name="ministry10_website">www.moc.gov.qa</string>
+    <string name="ministry11_website">www.islam.gov.qa</string>
+    <string name="ministry12_website">www.moe.gov.qa</string>
+    <string name="ministry13_website">www.ad.gov.qa</string>
+    <string name="ministry14_website">www.gsdp.gov.q</string>
+    <string name="ministry15_website">www.ict.gov.qa</string>
+
+    <!-- MINISTRIES PHONE NUMBERS -->
+    <string name="ministry1_phone1">16001</string>
+    <string name="ministry1_phone2">+974 40122222</string>
+    <string name="ministry2_phone1">+974 44846444</string>
+    <string name="ministry3_phone1">+974 44614111</string>
+    <string name="ministry4_phone1">+974 40111111</string>
+    <string name="ministry5_phone1">+974 44461444</string>
+    <string name="ministry6_phone1">+974 44842290</string>
+    <string name="ministry7_phone1">+974 44330000</string>
+    <string name="ministry8_phone1">+974 44348888</string>
+    <string name="ministry8_phone2">+974 44413331</string>
+    <string name="ministry9_phone1">+974 44241111</string>
+    <string name="ministry9_phone2">+974 44241101</string>
+    <string name="ministry10_phone1">+974 44022222</string>
+    <string name="ministry11_phone1">+974 44700000</string>
+    <string name="ministry12_phone1">+974 44207777</string>
+    <string name="ministry13_phone1">+974 40288888</string>
+    <string name="ministry14_phone1">+974 44958888</string>
+    <string name="ministry15_phone1">+974 44995333</string>
+
+    <!-- ORGANIZATIONS NAMES-->
+    <string name="org1_name">--</string>
+    <string name="org2_name">--</string>
+    <string name="org3_name">--</string>
+    <string name="org4_name">--</string>
+    <string name="org5_name">--</string>
+    <string name="org6_name">--</string>
+    <string name="org7_name">--</string>
+    <string name="org8_name">--</string>
+    <string name="org9_name">--</string>
+    <string name="org10_name">--</string>
+    <string name="org11_name">--</string>
+    <string name="org12_name">--</string>
+    <string name="org13_name">--</string>
+    <string name="org14_name">--</string>
+    <string name="org15_name">--</string>
+    <string name="org16_name">--</string>
+    <string name="org17_name">--</string>
+    <string name="org18_name">--</string>
+    <string name="org19_name">--</string>
+    <string name="org20_name">--</string>
+    <string name="org21_name">--</string>
+    <string name="org22_name">--</string>
+    <string name="org23_name">--</string>
+    <string name="org24_name">--</string>
+    <string name="org25_name">--</string>
+    <string name="org26_name">--</string>
+    <string name="org27_name">--</string>
+    <string name="org28_name">--</string>
+    <string name="org29_name">--</string>
+    <string name="org30_name">--</string>
+    <string name="org31_name">--</string>
+    <string name="org32_name">--</string>
+    <string name="org33_name">--</string>
+    <string name="org34_name">--</string>
+    <string name="org35_name">--</string>
+    <string name="org36_name">--</string>
+    <string name="org37_name">--</string>
+    <string name="org38_name">--</string>
+    <string name="org39_name">--</string>
+    <string name="org40_name">--</string>
+
+    <!-- ORGANIZATIONS WEBSITES-->
+    <string name="org1_website">www.customs.gov.qa</string>
+    <string name="org2_website">www.grsia.gov.qa</string>
+    <string name="org3_website">www.caa.gov.qa</string>
+    <string name="org4_website">www.ashghal.gov.qa</string>
+    <string name="org5_website">www.qfma.org.qa</string>
+    <string name="org6_website">www.qma.com.qa</string>
+    <string name="org7_website">www.qatartourism.gov.qa</string>
+    <string name="org8_website">www.qatarfcht.com</string>
+    <string name="org9_website">www.qatarmedialive.com</string>
+    <string name="org10_website">www.qof.qa</string>
+    <string name="org11_website">www.hamad.qa</string>
+    <string name="org12_website">www.qfepc.gov.qa</string>
+    <string name="org13_website"> www.km.com.qa</string>
+    <string name="org14_website">www.phcc.qa</string>
+    <string name="org15_website">www.qfcw.org.qa</string>
+    <string name="org16_website">www.cm.gov.qa</string>
+    <string name="org17_website">www.abq.gov.qa</string>
+    <string name="org18_website">www.pp.gov.qa</string>
+    <string name="org19_website">www.qcb.gov.qa</string>
+    <string name="org20_website">www.qatarchamber.com</string>
+    <string name="org21_website">www.qia.qa</string>
+    <string name="org22_website">www.qna.org.qa</string>
+    <string name="org23_website">www.mwani.com.qa</string>
+    <string name="org24_website">www.src-qa.org</string>
+    <string name="org25_website">www.scfa.gov.q</string>
+    <string name="org26_website">www.qsa.gov.qa</string>
+    <string name="org27_website">www.sch.gov.qa</string>
+    <string name="org28_website">www.sjc.gov.qa</string>
+    <string name="org29_website">www.sec.gov.qa</string>
+    <string name="org30_website">www.qatarcancersociety.org</string>
+    <string name="org31_website">www.silatech.com</string>
+    <string name="org32_website">www.olympic.qa</string>
+    <string name="org33_website">www.qu.edu.qa</string>
+    <string name="org34_website">www.qdb.qa</string>
+    <string name="org35_website">www.fanar.gov.qa</string>
+    <string name="org36_website">www.qrcs.org.qa</string>
+    <string name="org37_website">www.mowasalat.com</string>
+    <string name="org38_website">www.mada.org.qa</string>
+    <string name="org39_website">www.qpost.com.qa</string>
+    <string name="org40_website">www.fcc.gov.qa</string>
+
+    <!-- ORGANIZATIONS PHONE NUMBERS -->
+    <string name="org1_phone1">+974 44457457</string>
+    <string name="org2_phone1">+974 44090000</string>
+    <string name="org3_phone1">+974 44557333</string>
+    <string name="org4_phone1">+974 44950000</string>
+    <string name="org5_phone1">+974 44289999</string>
+    <string name="org6_phone1">+974 44525555</string>
+    <string name="org7_phone1">+974 44997499</string>
+    <string name="org8_phone1">+974 44912888</string>
+    <string name="org9_phone1">+974 44894444</string>
+    <string name="org10_phone1">+974 44589444</string>
+    <string name="org11_phone1">+974 44392012</string>
+    <string name="org12_phone1">+974 40121000</string>
+    <string name="org13_phone1">+974 44845555</string>
+    <string name="org13_phone2">+974 4484546</string>
+    <string name="org14_phone1">+974 44593333</string>
+    <string name="org14_phone2">+974 44593363</string>
+    <string name="org15_phone1">+974 44679444</string>
+    <string name="org16_phone1">+974 44018888</string>
+    <string name="org17_phone1">+974 40200000</string>
+    <string name="org18_phone1">+974 44843333</string>
+    <string name="org19_phone1">+974 44456456</string>
+    <string name="org20_phone1">+974 44559111</string>
+    <string name="org21_phone1">+974 44995900</string>
+    <string name="org22_phone1">+974 44450205</string>
+    <string name="org22_phone2">+974 44450333</string>
+    <string name="org23_phone1">+974 44993333</string>
+    <string name="org24_phone1">+974 44593444</string>
+    <string name="org25_phone1">+974 44040444</string>
+    <string name="org26_phone1">+974 44594555</string>
+    <string name="org27_phone1">+974 44070000</string>
+    <string name="org28_phone1">+974 44591111</string>
+    <string name="org29_phone1">+974 44559555</string>
+    <string name="org29_phone2">+974 44044444</string>
+    <string name="org30_phone1">+974 44847777</string>
+    <string name="org30_phone2">+974 44847788</string>
+    <string name="org31_phone1">+974 44994800</string>
+    <string name="org32_phone1">+974 44494444</string>
+    <string name="org33_phone1">+974 44033333</string>
+    <string name="org34_phone1">+974 44300000</string>
+    <string name="org35_phone1">+974 44250250</string>
+    <string name="org36_phone1">+974 44027777</string>
+    <string name="org37_phone1">+974 44588588</string>
+    <string name="org37_phone2">+974 44588888</string>
+    <string name="org38_phone1">+974 44594050</string>
+    <string name="org39_phone1">+974 44464413</string>
+    <string name="org40_phone1">+974 44327777</string>
+    <string name="org40_phone2">+974 4489288</string>
+
+    <string-array name="mc_projects">
+        <item>@string/mc_proj1_name</item>
+        <item>@string/mc_proj2_name</item>
+        <item>@string/mc_proj3_name</item>
+        <item>@string/mc_proj4_name</item>
+        <item>@string/mc_proj5_name</item>
+    </string-array>
+
+    <string-array name="projects">
+        <item>@string/proj1</item>
+        <item>@string/proj2</item>
+        <item>@string/proj3</item>
+        <item>@string/proj4</item>
+        <item>@string/proj5</item>
+        <item>@string/proj6</item>
+        <item>@string/proj7</item>
+    </string-array>
+
+    <string-array name="organizations">
+        <item>@string/org1_name</item>
+        <item>@string/org2_name</item>
+        <item>@string/org3_name</item>
+        <item>@string/org4_name</item>
+        <item>@string/org5_name</item>
+        <item>@string/org6_name</item>
+        <item>@string/org7_name</item>
+        <item>@string/org8_name</item>
+        <item>@string/org9_name</item>
+        <item>@string/org10_name</item>
+        <item>@string/org11_name</item>
+        <item>@string/org12_name</item>
+        <item>@string/org13_name</item>
+        <item>@string/org14_name</item>
+        <item>@string/org15_name</item>
+        <item>@string/org16_name</item>
+        <item>@string/org17_name</item>
+        <item>@string/org18_name</item>
+        <item>@string/org19_name</item>
+        <item>@string/org20_name</item>
+        <item>@string/org21_name</item>
+        <item>@string/org22_name</item>
+        <item>@string/org23_name</item>
+        <item>@string/org24_name</item>
+        <item>@string/org25_name</item>
+        <item>@string/org26_name</item>
+        <item>@string/org27_name</item>
+        <item>@string/org28_name</item>
+        <item>@string/org29_name</item>
+        <item>@string/org30_name</item>
+        <item>@string/org31_name</item>
+        <item>@string/org32_name</item>
+        <item>@string/org33_name</item>
+        <item>@string/org34_name</item>
+        <item>@string/org35_name</item>
+        <item>@string/org36_name</item>
+        <item>@string/org37_name</item>
+        <item>@string/org38_name</item>
+        <item>@string/org39_name</item>
+        <item>@string/org40_name</item>
+    </string-array>
+
+    <string-array name="ministries">
+        <item>@string/ministry1</item>
+        <item>@string/ministry2</item>
+        <item>@string/ministry3</item>
+        <item>@string/ministry4</item>
+        <item>@string/ministry5</item>
+        <item>@string/ministry6</item>
+        <item>@string/ministry7</item>
+        <item>@string/ministry8</item>
+        <item>@string/ministry9</item>
+        <item>@string/ministry10</item>
+        <item>@string/ministry11</item>
+        <item>@string/ministry12</item>
+        <item>@string/ministry13</item>
+        <item>@string/ministry14</item>
+        <item>@string/ministry15</item>
+    </string-array>
+
+    <string-array name="search_by">
+        <item>@string/by_company</item>
+        <item>@string/by_sector</item>
+        <item>@string/by_sub_sector</item>
+        <item>@string/by_place</item>
+    </string-array>
+
+    <string-array name="service_categories">
+        <item>@string/service_cat1</item>
+        <item>@string/service_cat2</item>
+        <item>@string/service_cat3</item>
+        <item>@string/service_cat4</item>
+        <item>@string/service_cat5</item>
+        <item>@string/service_cat6</item>
+        <item>@string/service_cat7</item>
+        <item>@string/service_cat8</item>
+        <item>@string/service_cat9</item>
+        <item>@string/service_cat10</item>
+        <item>@string/service_cat11</item>
+    </string-array>
+</resources>

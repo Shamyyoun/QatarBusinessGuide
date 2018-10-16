@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/search_bar_horizontal_margin"
+        android:layout_marginRight="@dimen/search_bar_horizontal_margin"
+        android:layout_marginTop="@dimen/search_bar_vertical_margin"
+        android:layout_marginBottom="@dimen/search_bar_vertical_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_searchBy" />
+
+        <EditText
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/dark_gray"
+            android:minWidth="@dimen/text_field_min_width"
+            android:gravity="right"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_search" />
+
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:src="@drawable/search_icon_red"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:layout_width="@dimen/search_red_icon_dimen"
+            android:layout_height="@dimen/search_red_icon_dimen"
+            android:id="@+id/button_search" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_below="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/view_progress"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/view_progress"></include>
+
+        <include
+            android:id="@+id/view_error"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/view_error"></include>
+
+        <include
+            android:id="@+id/view_empty"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/view_empty"></include>
+
+        <FrameLayout
+            android:id="@+id/view_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/list_results"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

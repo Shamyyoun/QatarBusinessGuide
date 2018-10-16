@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="splash_bottom_panel_margin">20dp</dimen>
+    <dimen name="splash_bottom_panel_padding">5dp</dimen>
+    <dimen name="splash_tr_margin">12dp</dimen>
+    <dimen name="actionbar_icon_padding">10dp</dimen>
+    <dimen name="actionbar_icon_dimen">55dp</dimen>
+    <dimen name="view_margin">15dp</dimen>
+    <dimen name="content_padding_vertical">7dp</dimen>
+    <dimen name="content_padding_horizontal">20dp</dimen>
+    <dimen name="screen_horizontal_margin">16dp</dimen>
+    <dimen name="screen_vertical_margin">16dp</dimen>
+    <dimen name="text_field_min_width">120dp</dimen>
+    <dimen name="tabs_seperator_height">25dp</dimen>
+
+</resources>

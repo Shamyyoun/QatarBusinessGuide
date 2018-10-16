@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/splash_logo_size"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:src="@drawable/qbg_logo" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:gravity="center"
+            android:padding="@dimen/splash_bottom_panel_padding"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/splash_bottom_panel_margin"
+            android:layout_marginBottom="@dimen/splash_bottom_panel_margin"
+            android:background="@drawable/trans_yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginRight="@dimen/splash_tr_margin"
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/splash_tr_logo_dimen"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/umc_arc_logo" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:textColor="@color/light_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/powered_by"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

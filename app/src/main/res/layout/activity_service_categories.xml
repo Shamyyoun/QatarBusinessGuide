@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/container_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height"
+        android:layout_gravity="bottom"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/text_services"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_red_item"
+            android:gravity="center"
+            android:text="@string/services"
+            android:textColor="@color/dark_red"
+            android:textSize="@dimen/title_dimen" />
+
+        <View
+            android:id="@+id/view_seperator"
+            android:layout_width="1dp"
+            android:layout_height="@dimen/tabs_seperator_height"
+            android:background="@color/light_red" />
+
+        <TextView
+            android:id="@+id/text_events"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_red_item"
+            android:gravity="center"
+            android:text="@string/conferences"
+            android:textColor="@color/dark_red"
+            android:textSize="@dimen/title_dimen" />
+    </LinearLayout>
+
+</FrameLayout>

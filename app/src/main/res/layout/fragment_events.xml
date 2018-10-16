@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height"
+        android:background="@drawable/actionbar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_width="@dimen/actionbar_icon_dimen"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/clickable_item"
+            android:paddingLeft="@dimen/actionbar_icon_padding"
+            android:paddingRight="@dimen/actionbar_icon_padding"
+            android:scaleType="centerInside"
+            android:scaleX="-1"
+            android:src="@drawable/ic_back_white" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/conferences"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_dimen" />
+
+        <ImageButton
+            android:id="@+id/button_search"
+            android:layout_width="@dimen/actionbar_icon_dimen"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/clickable_item"
+            android:paddingLeft="@dimen/actionbar_icon_padding"
+            android:paddingRight="@dimen/actionbar_icon_padding"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_search_white"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/action_bar"
+        android:paddingBottom="@dimen/abc_action_bar_default_height">
+
+        <include
+            android:id="@+id/view_progress"
+            layout="@layout/view_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"></include>
+
+        <include
+            android:id="@+id/view_error"
+            layout="@layout/view_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"></include>
+
+        <include
+            android:id="@+id/view_empty"
+            layout="@layout/view_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"></include>
+
+
+        <FrameLayout
+            android:id="@+id/view_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <views.SlideExpandableListView
+                android:id="@+id/list_events"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawSelectorOnTop="false"
+                android:groupIndicator="@null"
+                android:listSelector="#00000000" />
+
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>
